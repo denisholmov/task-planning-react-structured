@@ -16,6 +16,10 @@ export const ROUTS = createBrowserRouter([
         path: PagePath.Welcome,
         element: <WelcomePage />,
       },
+      // {
+      //   path: PagePath.Board,
+      //   element: <Board />,
+      // },
     ],
   },
 ]);
