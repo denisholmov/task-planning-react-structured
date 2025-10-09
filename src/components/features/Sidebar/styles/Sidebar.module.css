@@ -1,0 +1,20 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  grid-area: sidebar;
+  height: 100vh;
+  padding-top: 32px;
+  padding-bottom: 84px;
+}
+
+.logo {
+  padding-right: 43px;
+  padding-left: 43px;
+  margin-bottom: 60px;
+}
+
+.foot {
+  padding-right: 43px;
+  padding-left: 43px;
+  margin-top: auto;
+}

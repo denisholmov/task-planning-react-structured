@@ -1,0 +1,6 @@
+.main {
+  grid-area: main;
+  padding: 1rem;
+  overflow-y: auto; /* скролл внутри main если контент большой */
+  background: #ffffff;
+}
