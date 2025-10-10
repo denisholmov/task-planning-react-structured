@@ -1,19 +1,22 @@
 .sidebar {
+  position: relative;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   grid-area: sidebar;
   height: 100vh;
   padding-top: 32px;
   padding-bottom: 84px;
+  box-shadow: 7px -1px 12px var(--shadow-color);
 }
 
-.logo {
+.title {
+  display: flex;
+  gap: 15px;
+  align-items: center;
   padding-right: 43px;
   padding-left: 43px;
   margin-bottom: 60px;
-}
-
-.logo h1 {
   font-family: Poppins, sans-serif;
   font-size: 16px;
   font-weight: 700;

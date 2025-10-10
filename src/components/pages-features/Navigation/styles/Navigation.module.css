@@ -1,0 +1,31 @@
+.navigation {
+  height: 100%;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+  margin-bottom: 60px;
+}
+
+.link {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding: 9px 43px;
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--pearl-blackberry);
+  text-decoration: none;
+}
+
+.item:hover {
+  background-color: var(--color-blue);
+}
+
+.item:last-child {
+  margin-top: auto;
+}
