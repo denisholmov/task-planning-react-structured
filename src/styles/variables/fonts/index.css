@@ -3,3 +3,9 @@
     system-ui, -apple-system, "Segoe UI", roboto, "Helvetica Neue", helvetica,
     sans-serif;
 }
+
+@font-face {
+  font-family: Poppins;
+  font-weight: 700;
+  src: url("../../../../public/fonts/Poppins-Bold.ttf");
+}

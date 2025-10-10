@@ -10,7 +10,9 @@ export const Sidebar = () => {
 
       <Navigation />
 
-      <div className={styles.foot}>Logout</div>
+      <div className={styles.logout}>
+        <a href="/">logout</a>
+      </div>
     </aside>
   );
 };
