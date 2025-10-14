@@ -1,7 +1,7 @@
 import LogoSvg from "@/public/favicons/logo.svg?react";
 
-import { Navigation } from "../../pages-features/Navigation";
-import { itemsNavigation } from "../../pages-features/Navigation/constants/icons";
+import { Navigation } from "../../pages-content/Navigation";
+import { itemsNavigation } from "../../pages-content/Navigation/constants/icons";
 import styles from "./styles/Sidebar.module.css";
 
 export const Sidebar = () => {
