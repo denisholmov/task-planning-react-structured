@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 import type { NavigationProps } from "./types/interfaces";
 
-import styles from "./styles/Navigation.module.css";
+import styles from "./styles/index.module.css";
 
 export const Navigation = ({ items }: NavigationProps) => {
   return (

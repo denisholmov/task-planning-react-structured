@@ -3,8 +3,6 @@
   grid-template: "sidebar header" auto "sidebar main" 1fr / 224px 1fr;
 }
 
-
-
 .sidebar {
   grid-area: sidebar;
   padding: 1rem;

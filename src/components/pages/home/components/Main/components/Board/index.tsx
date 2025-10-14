@@ -1,9 +1,7 @@
 import React from "react";
 
-import type { Task } from "./types/interface";
-
 export const Board = () => {
-  const [tasks, setTasks] = React.useState<Task[] | null>(null);
+  // const [tasks, setTasks] = React.useState<Task[] | null>(null);
 
   fetch("https://68eb647e76b3362414cd8cc7.mockapi.io/tasks")
     .then((response) => response.json())

@@ -1,9 +1,9 @@
 import { Outlet } from "react-router-dom";
 
-import { Header } from "../../features/Header";
-import { Main } from "../../features/Main";
-import { Sidebar } from "../../features/Sidebar";
-import styles from "./styles/HomePage.module.css";
+import { Header } from "./components/Header";
+import { Main } from "./components/Main";
+import { Sidebar } from "./components/Sidebar";
+import styles from "./styles/index.module.css";
 
 export const HomePage = () => {
   return (

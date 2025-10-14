@@ -1,8 +1,8 @@
 import LogoSvg from "@/public/favicons/logo.svg?react";
 
-import { Navigation } from "../../pages-content/Navigation";
-import { itemsNavigation } from "../../pages-content/Navigation/constants/icons";
-import styles from "./styles/Sidebar.module.css";
+import { Navigation } from "./components/Navigation";
+import { itemsNavigation } from "./components/Navigation/constants/icons";
+import styles from "./styles/index.module.css";
 
 export const Sidebar = () => {
   return (
