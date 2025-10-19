@@ -1,17 +1,15 @@
-import LogoSvg from "@/public/favicons/logo.svg?react";
+import { NavbarSimple } from "@/src/components/ui/NavbarSimple";
 
-import { Navigation } from "./components/Navigation";
-import { itemsNavigation } from "./components/Navigation/constants/icons";
-import styles from "./styles/index.module.css";
+import { itemLogo, itemsNavigation, itemLogout } from "./constants/icons";
 
 export const Sidebar = () => {
   return (
-    <aside className={styles.sidebar}>
-      <h1 className={styles.title}>
-        <LogoSvg width={24} height={24} /> Pro Manage
-      </h1>
-
-      <Navigation items={itemsNavigation} />
+    <aside>
+      <NavbarSimple
+        data={itemsNavigation}
+        itemLogo={itemLogo}
+        itemLogout={itemLogout}
+      />
     </aside>
   );
 };

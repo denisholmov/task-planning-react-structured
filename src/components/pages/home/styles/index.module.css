@@ -1,18 +1,13 @@
 .wrapper {
   display: grid;
-  grid-template: "sidebar header" auto "sidebar main" 1fr / 224px 1fr;
+  grid-template: "sidebar header" auto "sidebar main" 1fr / auto 1fr;
+  font-family: Poppins, sans-serif;
 }
 
 .sidebar {
   grid-area: sidebar;
-  padding: 1rem;
-  color: white;
-  background: #343a40;
 }
 
 .main {
   grid-area: main;
-  padding: 1rem;
-  overflow-y: auto; /* скролл внутри main если контент большой */
-  background: #ffffff;
 }

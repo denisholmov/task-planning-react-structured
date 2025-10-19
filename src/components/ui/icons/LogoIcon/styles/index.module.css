@@ -1,0 +1,14 @@
+.logoIcon {
+  width: 24px;
+  height: 24px;
+  color: #78909c; /* оригинальный цвет */
+}
+
+/* Состояния */
+.logoIcon:hover {
+  color: #2196f3;
+}
+
+.logoIcon:active {
+  color: #1976d2;
+}
