@@ -21,8 +21,18 @@ export type NavbarActionItem = {
   >;
 };
 
+export type NavbarActionLogoutItem = {
+  label: string;
+  icon: React.ComponentType<
+    SVGProps<SVGSVGElement> & {
+      stroke?: string;
+    }
+  >;
+  link: string;
+};
+
 export type NavbarSimpleProps = {
   data: NavbarItem[];
   itemLogo: NavbarActionItem;
-  itemLogout: NavbarActionItem;
+  itemLogout: NavbarActionLogoutItem;
 };

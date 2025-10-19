@@ -41,7 +41,7 @@
 .link {
   display: flex;
   gap: 16px;
-  align-items: start;
+  align-items: center;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 43px;

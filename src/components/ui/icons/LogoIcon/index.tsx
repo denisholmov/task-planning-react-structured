@@ -33,13 +33,13 @@ export const LogoIcon = () => (
     />
     <path
       d="M3.27002 6.95999L12 12.01L20.73 6.95999"
-      stroke="currentColor"
+      stroke="#1A87D7"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M12 22.08V12"
-      stroke="currentColor"
+      stroke="#1A87D7"
       strokeLinecap="round"
       strokeLinejoin="round"
     />

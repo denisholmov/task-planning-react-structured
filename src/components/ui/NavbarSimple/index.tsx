@@ -10,8 +10,6 @@ export function NavbarSimple({
   itemLogo,
   itemLogout,
 }: NavbarSimpleProps) {
-  console.log(data);
-
   return (
     <nav className={classes.navbar}>
       <div className={classes.navbarMain}>
@@ -33,11 +31,11 @@ export function NavbarSimple({
 
       <div className={classes.item}>
         <Link
-          to="/"
+          to={itemLogout.link}
           className={classes.link}
           onClick={(event) => event.preventDefault()}
         >
-          <itemLogo.icon className={classes.linkIcon} stroke="1.5" />
+          <itemLogout.icon className={classes.linkIcon} stroke="1.5" />
           <span>{itemLogout.label}</span>
         </Link>
       </div>
