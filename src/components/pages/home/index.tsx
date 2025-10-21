@@ -8,13 +8,19 @@ import styles from "./styles/index.module.css";
 export const HomePage = () => {
   return (
     <div className={styles.wrapper}>
-      <Header />
+      <header className={styles.header}>
+        <Header />
+      </header>
 
-      <Sidebar />
+      <div className={styles.sidebar}>
+        <Sidebar />
+      </div>
 
-      <Main>
-        <Outlet />
-      </Main>
+      <div className={styles.main}>
+        <Main>
+          <Outlet />
+        </Main>
+      </div>
     </div>
   );
 };

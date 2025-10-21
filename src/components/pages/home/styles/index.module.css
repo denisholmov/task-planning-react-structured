@@ -1,13 +1,23 @@
 .wrapper {
   display: grid;
   grid-template: "sidebar header" auto "sidebar main" 1fr / auto 1fr;
+  height: 100vh;
   font-family: Poppins, sans-serif;
+}
+
+.header {
+  grid-area: header;
+  padding: 30px;
 }
 
 .sidebar {
   grid-area: sidebar;
+  height: 100%;
 }
 
 .main {
   grid-area: main;
+  padding: 1rem;
+  overflow-y: auto;
+  background: #ffffff;
 }

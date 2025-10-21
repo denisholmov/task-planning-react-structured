@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 
 import { ErrorPage } from "@/src/components/pages/error";
 import { HomePage } from "@/src/components/pages/home";
+import { Board } from "@/src/components/pages/home/components/Main/components/Board";
 import { WelcomePage } from "@/src/components/pages/welcome";
 
 import { PagePath } from "./paths";
@@ -16,10 +17,10 @@ export const ROUTS = createBrowserRouter([
         path: PagePath.Welcome,
         element: <WelcomePage />,
       },
-      // {
-      //   path: PagePath.Board,
-      //   element: <Board />,
-      // },
+      {
+        path: PagePath.Board,
+        element: <Board />,
+      },
     ],
   },
 ]);

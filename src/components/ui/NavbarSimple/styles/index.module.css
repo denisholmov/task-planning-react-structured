@@ -2,13 +2,12 @@
   display: flex;
   flex-direction: column;
   width: 224px;
-  height: 700px;
+  height: 100%;
   padding-top: 32px;
   padding-bottom: 84px;
   font-size: 16px;
   font-weight: 700;
   color: var(--color-black);
-  box-shadow: 7px -1px 12px rgb(0 0 0 / 11%);
 }
 
 .navbarMain {
