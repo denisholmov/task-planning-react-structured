@@ -8,6 +8,7 @@
   font-size: 16px;
   font-weight: 700;
   color: var(--color-black);
+  box-shadow: 7px -1px 12px rgb(0 0 0 / 11%);
 }
 
 .navbarMain {
