@@ -1,0 +1,10 @@
+.board {
+  height: 100%;
+}
+
+.title {
+  margin-bottom: 36px;
+  font-family: Poppins, sans-serif;
+  font-size: 29px;
+  font-weight: 500;
+}

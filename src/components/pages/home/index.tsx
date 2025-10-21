@@ -16,11 +16,11 @@ export const HomePage = () => {
         <Sidebar />
       </div>
 
-      <div className={styles.main}>
+      <main className={styles.main}>
         <Main>
           <Outlet />
         </Main>
-      </div>
+      </main>
     </div>
   );
 };

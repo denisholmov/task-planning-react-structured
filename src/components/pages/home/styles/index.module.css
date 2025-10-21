@@ -17,7 +17,7 @@
 
 .main {
   grid-area: main;
-  padding: 1rem;
+  padding: 30px;
   overflow-y: auto;
   background: #ffffff;
 }
