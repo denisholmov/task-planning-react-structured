@@ -1,4 +1,4 @@
-import { Group } from "@mantine/core";
+import { Group, Text } from "@mantine/core";
 import { Link } from "react-router-dom";
 
 import type { NavbarSimpleProps } from "./types";
@@ -15,14 +15,14 @@ export function NavbarSimple({
       <div className={classes.navbarMain}>
         <Group className={classes.header}>
           <itemLogo.icon className={classes.linkIcon} />
-          <span>{itemLogo.label}</span>
+          <Text>{itemLogo.label}</Text>
         </Group>
         <ul className={classes.menu}>
           {data.map((item) => (
             <li className={classes.item} key={item.id}>
               <Link to={item.link} className={classes.link}>
                 <item.icon className={classes.linkIcon} stroke="1.5" />
-                <span>{item.label}</span>
+                <Text>{item.label}</Text>
               </Link>
             </li>
           ))}

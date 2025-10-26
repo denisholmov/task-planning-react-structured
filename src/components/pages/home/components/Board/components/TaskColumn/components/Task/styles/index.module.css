@@ -1,0 +1,17 @@
+.task {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  width: 100%;
+  padding: 24px;
+  white-space: nowrap;
+  background-color: var(--color-white);
+  border-radius: 20px;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}

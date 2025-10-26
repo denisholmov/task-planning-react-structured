@@ -1,0 +1,32 @@
+.taskColumnItem {
+  display: flex;
+  flex: 1 1 360px;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: start;
+  padding: 24px;
+  background-color: var(--smoky-white);
+  border-radius: 10px;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.icons {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.tasksMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  width: 100%;
+}
