@@ -2,7 +2,7 @@ import type { FC } from "react";
 
 import { Text, Title } from "@mantine/core";
 
-import { ThreePointsIcon } from "@/src/components/ui/icons/ThreePointsIcon";
+import { ToggleMenu } from "@/src/components/pages-content/ToggleMenu";
 
 import type { TaskProps } from "./types";
 
@@ -13,7 +13,7 @@ export const Task: FC<TaskProps> = ({ task }) => {
     <li className={classes.task}>
       <div className={classes.head}>
         <Title>{task.title}</Title>
-        <ThreePointsIcon />
+        <ToggleMenu />
       </div>
       <Text
         className={classes.text}

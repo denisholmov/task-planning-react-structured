@@ -1,7 +1,7 @@
 import { Title } from "@mantine/core";
 import { type FC } from "react";
 
-import { ThreePointsIcon } from "@/src/components/ui/icons/ThreePointsIcon";
+import { ToggleMenu } from "@/src/components/pages-content/ToggleMenu";
 
 import type { TaskColumnProps } from "./types";
 
@@ -18,7 +18,7 @@ export const TaskColumn: FC<TaskColumnProps> = ({ taskColumn }) => {
         </Title>
         <div className={classes.icons}>
           <AddTask />
-          <ThreePointsIcon />
+          <ToggleMenu />
         </div>
       </div>
       <ul className={classes.tasksMenu}>
