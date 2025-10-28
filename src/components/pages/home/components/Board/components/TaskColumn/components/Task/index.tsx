@@ -15,9 +15,15 @@ export const Task: FC<TaskProps> = ({ task }) => {
         <Title>{task.title}</Title>
         <ThreePointsIcon />
       </div>
-      <Text className={classes.text}>
+      <Text
+        className={classes.text}
+        style={{
+          width: "100%",
+          wordBreak: "break-word",
+          whiteSpace: "normal",
+        }}
+      >
         {task.text}
-        fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
       </Text>
     </li>
   );

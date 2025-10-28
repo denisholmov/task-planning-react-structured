@@ -5,8 +5,8 @@ export const itemsTaskColumn = [
     tasks: [
       {
         id: 0,
-        title: "Разработка чего то там",
-        text: "Много всего здесь надо сделать",
+        title: "Задачка",
+        text: "описание",
       },
     ],
   },

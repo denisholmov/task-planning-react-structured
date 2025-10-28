@@ -1,11 +1,11 @@
 import { Title } from "@mantine/core";
 import { type FC } from "react";
 
-import { PlusIcon } from "@/src/components/ui/icons/PlusIcon";
 import { ThreePointsIcon } from "@/src/components/ui/icons/ThreePointsIcon";
 
 import type { TaskColumnProps } from "./types";
 
+import { AddTask } from "./components/AddTask";
 import { Task } from "./components/Task";
 import classes from "./styles/index.module.css";
 
@@ -17,7 +17,7 @@ export const TaskColumn: FC<TaskColumnProps> = ({ taskColumn }) => {
           {taskColumn.title}
         </Title>
         <div className={classes.icons}>
-          <PlusIcon />
+          <AddTask />
           <ThreePointsIcon />
         </div>
       </div>
